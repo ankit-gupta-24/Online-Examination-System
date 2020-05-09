@@ -1,0 +1,39 @@
+label{
+	font-size: 16px;
+}
+button:hover{
+	box-shadow: 1px 1px 5px red;
+}
+input[type="radio"]{
+	height: 16px !important;
+	width: 16px !important;
+}
+a{
+	 text-decoration: none;
+}
+.w3-container{
+	display: none;
+}
+#full{
+	position: fixed;
+	top: 100px;
+	left: 50%;
+}
+#main {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll; 
+	color: white;
+}
+.qimg{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.qimg img{
+	margin: 5px;
+	align-self: center;
+	height: auto;
+}

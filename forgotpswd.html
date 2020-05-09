@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forgot password</title>
+	<style type="text/css">
+		form{
+			width: 50%;
+
+		}
+		@media (max-width: 600px){
+			form{
+				width: 100%;
+			}
+		}
+		input{
+			margin: 2px;
+		}
+		input[type='text'],input[type='email']{
+			padding: 5px;
+			width: 100%;
+		}
+		a{
+		    text-decoration:none;
+		}
+	</style>
+</head>
+<body>
+
+	<center>
+	    <h2><a href='./'>&larr; Back</a></h2>
+		<h2>A password reset link will be sent to your email address.</h2>
+	<form method="post" action="forgotpswd.php">
+		<label><h3>Enter username</h3></label>
+		<input type="text" name="username" >
+		<label><h3>Enter email</h3></label>
+		<input type="email" name="email">
+		<input type="submit" name="submit">
+	</form>
+	
+	</center>
+</body>
+</html>
